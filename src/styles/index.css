@@ -16,14 +16,12 @@
   text-align: center;
 }
 
-
 .paper-stack {
   position: relative;
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
 }
-
 
 .paper-stack .sheet-1,
 .paper-stack .sheet-2,
@@ -34,7 +32,7 @@
   margin: auto;
   background: white;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .paper-stack .sheet-3 {
@@ -53,11 +51,6 @@
 
 .paper-stack .sheet-1 {
   position: relative;
-  /*background: repeating-linear-gradient(
-    white,
-    white 44px,
-    #d3d3d3 45px
-  );*/
   padding: 0 20px;
   padding-top: 22px;
   padding-bottom: 6px;
@@ -96,8 +89,11 @@
   align-items: center;
   line-height: 44px;
   position: relative;
-  border: 1px solid rgb(226, 226, 226);
-  margin-bottom:2px;
+  border-top: 1px solid rgb(226, 226, 226);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: 2px;
 }
 
 .task-list li button {
@@ -115,7 +111,6 @@
   margin-top: 0;
   padding-top: 0;
 }
-
 
 .task-counter {
   font-size: 14px;
